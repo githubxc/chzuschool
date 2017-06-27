@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sy"
+            android:icon="@drawable/ic_menu"
+            android:title="首页" />
+        <item
+            android:id="@+id/nav_xxjj"
+            android:icon="@drawable/ic_menu"
+            android:title="学校简介" />
+        <item
+            android:id="@+id/nav_czxw"
+            android:icon="@drawable/ic_menu"
+            android:title="滁中新闻" />
+        <item
+            android:id="@+id/nav_xwgk"
+            android:icon="@drawable/ic_menu"
+            android:title="校务公开" />
+        <item
+            android:id="@+id/nav_dqgz"
+            android:icon="@drawable/ic_menu"
+            android:title="党群工作" />
+
+        <item
+            android:id="@+id/nav_dytd"
+            android:icon="@drawable/ic_menu"
+            android:title="德育天地" />
+
+        <item
+            android:id="@+id/nav_jxzh"
+            android:icon="@drawable/ic_menu"
+            android:title="教学纵横" />
+
+        <item
+            android:id="@+id/nav_jyky"
+            android:icon="@drawable/ic_menu"
+            android:title="教育科研" />
+
+        <item
+            android:id="@+id/nav_hqfw"
+            android:icon="@drawable/ic_menu"
+            android:title="后勤服务" />
+
+        <item
+            android:id="@+id/nav_xyaq"
+            android:icon="@drawable/ic_menu"
+            android:title="校园安全" />
+
+        <item
+            android:id="@+id/nav_jzxx"
+            android:icon="@drawable/ic_menu"
+            android:title="家长学校" />
+
+        <item
+            android:id="@+id/nav_zszp"
+            android:icon="@drawable/ic_menu"
+            android:title="招生招聘" />
+    </group>
+</menu>
