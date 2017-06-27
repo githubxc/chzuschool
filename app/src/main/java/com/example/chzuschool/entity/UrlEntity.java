@@ -1,6 +1,7 @@
 package com.example.chzuschool.entity;
 
 /**
+ * 网页链接
  * Created by XC on 2017/6/21.
  */
 

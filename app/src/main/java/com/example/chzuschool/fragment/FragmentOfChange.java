@@ -15,10 +15,11 @@ import com.example.materialtest.R;
 import com.example.chzuschool.utils.WebViewUtils;
 
 /**
+ * 所有的content公用一个fragment
  * Created by XC on 2017/6/21.
  */
 
-public class FragmentOfXxjj  extends Fragment {
+public class FragmentOfChange extends Fragment {
 
     private WebViewUtils webViewUtils;
 
@@ -29,7 +30,7 @@ public class FragmentOfXxjj  extends Fragment {
     private String url;
 
 
-    public void FragmentOfXxjj(String Url){
+    public void FragmentOfChange(String Url){
         this.url = Url;
     }
 
@@ -48,6 +49,7 @@ public class FragmentOfXxjj  extends Fragment {
         }
 
         private void initView(){
+            //获取webview
             webView = (WebView) v.findViewById(R.id.home_webview);
             webSettings = webView.getSettings();
 
